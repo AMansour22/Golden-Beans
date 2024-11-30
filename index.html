@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Golden-Beans</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
-    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <section class="main">
@@ -20,13 +18,12 @@
         </div>
     </section>
 
-    <!-- ________Under-line png________ -->
     <section class="sec">
         <div class="underline">
             <img src="img/under-line.png" alt="" width="50%">
         </div>
     </section>
-    <!-- ________-story________ -->
+
     <section class="sec">
         <p class="para">since 2024</p>
         <h1 class="heading">our story</h1>
@@ -48,89 +45,111 @@
         </div>
     </section>
 
-    <!-- ________arrow.png________ -->
     <section class="sec">
         <div class="arrow">
             <img src="img/arrow.png" alt="" height="30%">
-    </div>
+        </div>
     </section>
-    <!-- _______types_________ -->
+
     <section class="sec">
         <p class="para">types of</p>
         <h1 class="heading">Nuts</h1>
         <div class="row">
-            <div class="box">
+            <div class="box" data-nut="Pine Nuts">
                 <img src="img/png1.png" alt="" height="80%">
                 <h2>Pine Nuts</h2>
             </div>
-            <div class="box">
+            <div class="box" data-nut="Almonds">
                 <img src="img/png2.png" alt="" height="80%">
                 <h2>Almonds</h2>
             </div>
-            <div class="box">
+            <div class="box" data-nut="Cashews">
                 <img src="img/png3.png" alt="">
                 <h2>Cashews</h2>
             </div>
         </div>
         <div class="row">
-            <div class="box">
+            <div class="box" data-nut="Antep Pistachios">
                 <img src="img/png4.png" alt="" height="80%">
-                <h2>Pistachios</h2>
+                <h2>Antep Pistachios</h2>
             </div>
-            <div class="box">
-                <img src="img/png5.png" alt="" height="80%">
-                <h2>Walnuts</h2>
+            <div class="box" data-nut="Siirt Pistachios">
+                <img src="img/png10.png" alt="" height="80%">
+                <h2>Siirt Pistachios</h2>
             </div>
-            <div class="box">
-                <img src="img/png6.png" alt=""  >
+            <div class="box" data-nut="Peanuts">
+                <img src="img/png6.png" alt="">
                 <h2>Peanuts</h2>
             </div>
         </div>
         <div class="row">
-            <div class="box">
+            <div class="box" data-nut="Hazelnuts">
                 <img src="img/png7.png" alt="" height="80%">
                 <h2>Hazelnuts</h2>
             </div>
-            <div class="box">
+            <div class="box" data-nut="Dried Apricots">
                 <img src="img/png8.png" alt="" height="80%">
-                <h2>Dried apricots</h2>
+                <h2>Dried Apricots</h2>
             </div>
-            <div class="box">
+            <div class="box" data-nut="Dried Figs">
                 <img src="img/png9.png" alt="" height="80%">
-                <h2>Dried figs</h2>
+                <h2>Dried Figs</h2>
             </div>
         </div>
+        <div class="row">   
+            <div class="box" data-nut="Walnuts">
+                <img src="img/png5.png" alt="" height="80%">
+                <h2>Walnuts</h2>
+            </div>
+            
+        </div>
     </section>
-    <!-- ________about_________ -->
+
     <section class="sec a-sec">
         <div class="about">
             <div class="about-box">
                 <h1 class="heading">About</h1>
-                <p class="mid-para">At Golden Beans, we believe in the power of nature, the richness of quality ingredients, and the importance of creating lasting relationships with our customers. Join us on this exciting journey where nature meets excellence, one nut at a time.
-
-                </p>
+                <p class="mid-para">Golden Beans  is an Egyptian company specializing in the field of nuts, with a particular focus on the production and distribution of pine nuts. The company owns a factory in Turkey that has been operating in this field for over 60 years, gaining extensive experience and achieving significant success in exporting pine nuts to various global markets.</p>
                 <button class="btn btn1">more info</button>
             </div>
         </div>
     </section>
-    <!-- ______________contact_________ -->
+
     <section class="sec contact">
         <div class="contact-box">
             <div class="Con-box">
                 <h1 class="heading">Contact Us</h1>
                 <div class="icons">
+                    <!-- Facebook link -->
                     <div>
-                        <i class="fab fa-facebook"></i>
-                        <span>Facebook</span>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
                     </div>
+                    
+                    <!-- Instagram link -->
                     <div>
-                        <i class="fab fa-instagram"></i>
-                        <span>Instagram</span>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                    
+                    <!-- Gmail link -->
+                    <div>
+                        <a href="mailto:your-email@example.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-envelope"></i>
+                            <span>Gmail</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
+
     <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.js"></script>
 </body>
 </html>

@@ -151,6 +151,7 @@
     left: 25%;
     padding: 12px;
     background-color: whitesmoke;
+    padding: 3px;
 }
 
 /* _______contact______ */
@@ -210,10 +211,6 @@
     }
 }
 
-@media only screen and (max-width: 820px) {
-    .burger {
-        display: block;
-    }
 
     .navbar {
         position: absolute;
@@ -231,10 +228,6 @@
     .navbar li a {
         padding: 18% 0;
         display: block;
-    }
-
-    .navbar .btn {
-        padding: 15px 24px;
     }
 
     .h-class {
@@ -343,3 +336,21 @@
         left: 5%;
     }
 }
+
+.custom-popup {
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #f4f4f9; 
+    font-family: 'Gabarito', sans-serif;
+}
+
+.swal2-title {
+    font-size: 30px;
+    color: #3d1f0a;
+}
+
+.swal2-text {
+    font-size: 18px;
+    color: #615548;
+}   
+
